@@ -140,3 +140,5 @@ Negative amounts = spending, positive amounts = income.
 ## License
 
 MIT
+
+

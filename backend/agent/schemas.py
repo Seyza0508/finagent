@@ -29,7 +29,6 @@ class Transaction(BaseModel):
     description: str
     amount: float
     category: Category = Category.OTHER
-    raw_row: dict[str, Any] = Field(default_factory=dict)
 
 
 class CategoryBreakdown(BaseModel):
